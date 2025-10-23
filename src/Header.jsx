@@ -4,10 +4,4 @@ function Header() {
     )
 }
 
-function Footer(){
-    return(
-        <h1> This is the footer </h1>
-    )
-}
-//export default Header;
-export default Footer;
+export default Header;

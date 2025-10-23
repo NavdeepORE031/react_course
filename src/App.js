@@ -1,7 +1,7 @@
 
 import './App.css';
 import Header from './Header'; 
-import Footer from './Header';
+
 
 function App() {
   let name = "John";
@@ -12,7 +12,6 @@ function App() {
       <p> I love react programming</p>
       <p> Am schocked by the power of react</p>
       <p>This is a paragraph</p>
-      <Footer />
     </div>
   );
 }
