@@ -1,6 +1,7 @@
 
 import './App.css';
-import Header from './Header'; 
+import Header from './Components/Header'; 
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -12,6 +13,8 @@ function App() {
       <p> I love react programming</p>
       <p> Am schocked by the power of react</p>
       <p>This is a paragraph</p>
+      <Footer />
+    
     </div>
   );
 }
