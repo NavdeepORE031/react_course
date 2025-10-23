@@ -1,7 +1,8 @@
 
 import './App.css';
-import Header from './Header'; 
-import Footer from './Header';
+import Header from './Components/Header'; 
+import Footer from './Components/Footer';
+
 
 function App() {
   let name = "John";
@@ -13,6 +14,7 @@ function App() {
       <p> Am schocked by the power of react</p>
       <p>This is a paragraph</p>
       <Footer />
+    
     </div>
   );
 }
