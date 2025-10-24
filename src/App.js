@@ -1,18 +1,27 @@
-
 import './App.css';
-import Header from './Header'; 
-import Footer from './Header';
+import Header from './Components/Header'
+import Movie from './Components/Movie'
+import movies from './Movies.json'
 
 function App() {
-  let name = "John";
   return (
     <div className="App">
-      <Header /> 
-      <h1>Hello World {name}</h1>
-      <p> I love react programming</p>
-      <p> Am schocked by the power of react</p>
-      <p>This is a paragraph</p>
-      <Footer />
+      <Header />
+      <div className= "main">
+        {
+        movies.map((element) => {
+          return (
+            <Movie
+                title = {element.Title}
+                year={element.Year}
+                img ={element.Poster}
+            />
+
+            )
+          })
+        }
+        
+      </div>
     </div>
   );
 }
